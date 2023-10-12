@@ -1,0 +1,48 @@
+.home-section {
+    background: #131212ee;
+    height: auto;
+    width: 100%;
+    padding: 40px;
+    .home-content {
+        height: 100%;
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 70px;
+        .latest-movie {
+            width: 100%;
+            font-size: 18px;
+            font-family: 400;
+            .latest-text {
+                color: #fff;
+                font-size: 20px;
+                font-family: 400;
+            }
+            .browse-btn {
+                color: #979595;
+            }
+            .browse-btn:hover {
+                color: #fff;
+                transition: 0.3s;
+            }
+        }
+        .row {
+            padding-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .browse-movie-wrap {
+                height: 370px;
+                margin: 10px 26px;
+            }
+            .movie-image {
+                width: 212px;
+                height: 315px;
+                border: 5px solid #fff;
+                .movie-name {
+                    padding: 4px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

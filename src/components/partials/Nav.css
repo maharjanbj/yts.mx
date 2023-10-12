@@ -1,0 +1,78 @@
+nav {
+    height: 60px;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.nav-logo {
+    height: 40px;
+    width: 40px;
+}
+img {
+    height: 100%;
+}
+.nav-list:hover {
+    cursor: pointer;
+}
+.nav-icons {
+    border: 1px solid rgb(100, 99, 99);
+    padding: 5px;
+    border-radius: 20px;
+}
+.nav-icons input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.flex-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-centered {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+}
+.flex-col {
+   flex-direction: column;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.justify-between {
+justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.text-align-center {
+    text-align: center;
+}
+.blur {
+    opacity: 0.5;
+}
+.mg-small {
+    margin: 0 12px;
+}
+.float-right {
+    float: rig;
+}
